@@ -1,0 +1,1869 @@
+[
+  {
+    "schema": null,
+    "table": "versions",
+    "constraints": [
+      {
+        "column_name": "version",
+        "constraint_type": "PRIMARY KEY"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "version",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "version",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "name",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "name",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "md5",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "md5",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "run_at",
+        "type": "TIMESTAMP WITH TIME ZONE",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "run_at",
+        "udt_name": "timestamp with time zone",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Playwright",
+    "constraints": [
+      {
+        "column_name": "Author_ID",
+        "constraint_type": "PRIMARY KEY"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Author_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Author_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Name",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Name",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Biography",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Biography",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Contact_Information",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Contact_Information",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "sqlite_sequence",
+    "constraints": [],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "name",
+        "type": "",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "name",
+        "udt_name": "",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "seq",
+        "type": "",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "seq",
+        "udt_name": "",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Metadata",
+    "constraints": [
+      {
+        "column_name": "Metadata_ID",
+        "constraint_type": "PRIMARY KEY"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Metadata_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Metadata_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Creation_Date",
+        "type": "DATE",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Creation_Date",
+        "udt_name": "date",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Last_Modified_Date",
+        "type": "DATE",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Last_Modified_Date",
+        "udt_name": "date",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Version_Number",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Version_Number",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Additional_Information",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Additional_Information",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Script",
+    "constraints": [
+      {
+        "column_name": "Script_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Script",
+        "column_name": "Metadata_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Metadata",
+        "foreign_column_name": "Metadata_ID",
+        "loweredTableWithSchemaName": "script",
+        "foreignEntityName": "metadatum",
+        "entityName": "script"
+      },
+      {
+        "table_name": "Script",
+        "column_name": "Author_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Playwright",
+        "foreign_column_name": "Author_ID",
+        "loweredTableWithSchemaName": "script",
+        "foreignEntityName": "playwright",
+        "entityName": "script"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Title",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Title",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Author_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Author_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "URL",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "URL",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Metadata_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Metadata_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Act",
+    "constraints": [
+      {
+        "column_name": "Act_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Act",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "act",
+        "foreignEntityName": "script",
+        "entityName": "act"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Act_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Act_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Act_Number",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Act_Number",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Synopsis",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Synopsis",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Notes",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Notes",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Scene",
+    "constraints": [
+      {
+        "column_name": "Scene_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Scene",
+        "column_name": "Act_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Act",
+        "foreign_column_name": "Act_ID",
+        "loweredTableWithSchemaName": "scene",
+        "foreignEntityName": "act",
+        "entityName": "scene"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Act_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Act_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Scene_Number",
+        "type": "INTEGER",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_Number",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Synopsis",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Synopsis",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Notes",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Notes",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Character",
+    "constraints": [
+      {
+        "column_name": "Character_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Character",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "character",
+        "foreignEntityName": "script",
+        "entityName": "character"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Character_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Character_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Name",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Name",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Description",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Dialogue",
+    "constraints": [
+      {
+        "column_name": "Dialogue_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Dialogue",
+        "column_name": "Character_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Character",
+        "foreign_column_name": "Character_ID",
+        "loweredTableWithSchemaName": "dialogue",
+        "foreignEntityName": "character",
+        "entityName": "dialogue"
+      },
+      {
+        "table_name": "Dialogue",
+        "column_name": "Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "dialogue",
+        "foreignEntityName": "scene",
+        "entityName": "dialogue"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Dialogue_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Dialogue_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Character_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Character_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Original_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Original_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Modernized_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Modernized_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Action",
+    "constraints": [
+      {
+        "column_name": "Action_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Action",
+        "column_name": "Character_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Character",
+        "foreign_column_name": "Character_ID",
+        "loweredTableWithSchemaName": "action",
+        "foreignEntityName": "character",
+        "entityName": "action"
+      },
+      {
+        "table_name": "Action",
+        "column_name": "Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "action",
+        "foreignEntityName": "scene",
+        "entityName": "action"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Action_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Action_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Character_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Character_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Original_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Original_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Modernized_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Modernized_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Transition",
+    "constraints": [
+      {
+        "column_name": "Transition_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Transition",
+        "column_name": "Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "transition",
+        "foreignEntityName": "scene",
+        "entityName": "transition"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Transition_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Transition_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Transition_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Transition_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Parenthetical",
+    "constraints": [
+      {
+        "column_name": "Parenthetical_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Parenthetical",
+        "column_name": "Dialogue_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Dialogue",
+        "foreign_column_name": "Dialogue_ID",
+        "loweredTableWithSchemaName": "parenthetical",
+        "foreignEntityName": "dialogue",
+        "entityName": "parenthetical"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Parenthetical_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Parenthetical_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Dialogue_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Dialogue_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Original_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Original_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Modernized_Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Modernized_Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Note",
+    "constraints": [
+      {
+        "column_name": "Note_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Note",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "note",
+        "foreignEntityName": "script",
+        "entityName": "note"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Note_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Note_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Type",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Type",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "CenteredText",
+    "constraints": [
+      {
+        "column_name": "Centered_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "CenteredText",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "centeredText",
+        "foreignEntityName": "script",
+        "entityName": "centeredText"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Centered_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Centered_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "PageBreak",
+    "constraints": [
+      {
+        "column_name": "Page_Break_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "PageBreak",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "pageBreak",
+        "foreignEntityName": "script",
+        "entityName": "pageBreak"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Page_Break_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Page_Break_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Page_Number",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Page_Number",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "SectionHeading",
+    "constraints": [
+      {
+        "column_name": "Section_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "SectionHeading",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "sectionHeading",
+        "foreignEntityName": "script",
+        "entityName": "sectionHeading"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Section_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Section_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "TitlePage",
+    "constraints": [
+      {
+        "column_name": "Title_Page_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "TitlePage",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "titlePage",
+        "foreignEntityName": "script",
+        "entityName": "titlePage"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Title_Page_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Title_Page_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Text",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Text",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Casting",
+    "constraints": [
+      {
+        "column_name": "Casting_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Casting",
+        "column_name": "Character_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Character",
+        "foreign_column_name": "Character_ID",
+        "loweredTableWithSchemaName": "casting",
+        "foreignEntityName": "character",
+        "entityName": "casting"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Casting_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Casting_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Character_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Character_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Actor_Characteristics_Choices",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Actor_Characteristics_Choices",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "CharacterRelationship",
+    "constraints": [
+      {
+        "column_name": "Relationship_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "CharacterRelationship",
+        "column_name": "Character2_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Character",
+        "foreign_column_name": "Character_ID",
+        "loweredTableWithSchemaName": "characterRelationship",
+        "foreignEntityName": "character",
+        "entityName": "characterRelationship"
+      },
+      {
+        "table_name": "CharacterRelationship",
+        "column_name": "Character1_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Character",
+        "foreign_column_name": "Character_ID",
+        "loweredTableWithSchemaName": "characterRelationship",
+        "foreignEntityName": "character",
+        "entityName": "characterRelationship"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Relationship_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Relationship_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Character1_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Character1_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Character2_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Character2_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Relationship_Type",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Relationship_Type",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "MusicSound",
+    "constraints": [
+      {
+        "column_name": "Music_Sound_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "MusicSound",
+        "column_name": "Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "musicSound",
+        "foreignEntityName": "scene",
+        "entityName": "musicSound"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Music_Sound_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Music_Sound_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Cue",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Cue",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Description",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "Props",
+    "constraints": [
+      {
+        "column_name": "Prop_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "Props",
+        "column_name": "Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "props",
+        "foreignEntityName": "scene",
+        "entityName": "prop"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Prop_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Prop_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Description",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "RevisionHistory",
+    "constraints": [
+      {
+        "column_name": "Revision_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "RevisionHistory",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "revisionHistory",
+        "foreignEntityName": "script",
+        "entityName": "revisionHistory"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Revision_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Revision_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Date",
+        "type": "DATE",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Date",
+        "udt_name": "date",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Change_Description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Change_Description",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 4,
+        "name": "Editor",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Editor",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "FormattingRules",
+    "constraints": [
+      {
+        "column_name": "Rule_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "FormattingRules",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "formattingRules",
+        "foreignEntityName": "script",
+        "entityName": "formattingRule"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Rule_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Rule_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Rule_Description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Rule_Description",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "CrossReferences",
+    "constraints": [
+      {
+        "column_name": "Cross_Reference_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "CrossReferences",
+        "column_name": "Referenced_Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "crossReferences",
+        "foreignEntityName": "scene",
+        "entityName": "crossReference"
+      },
+      {
+        "table_name": "CrossReferences",
+        "column_name": "Scene_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Scene",
+        "foreign_column_name": "Scene_ID",
+        "loweredTableWithSchemaName": "crossReferences",
+        "foreignEntityName": "scene",
+        "entityName": "crossReference"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Cross_Reference_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Cross_Reference_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Referenced_Scene_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Referenced_Scene_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Description",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "ExtendedNotesResearch",
+    "constraints": [
+      {
+        "column_name": "Research_ID",
+        "constraint_type": "PRIMARY KEY"
+      },
+      {
+        "table_name": "ExtendedNotesResearch",
+        "column_name": "Script_ID",
+        "constraint_type": "FOREIGN KEY",
+        "foreign_table_name": "Script",
+        "foreign_column_name": "Script_ID",
+        "loweredTableWithSchemaName": "extendedNotesResearch",
+        "foreignEntityName": "script",
+        "entityName": "extendedNotesResearch"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Research_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Research_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Script_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Script_ID",
+        "udt_name": "integer",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Notes",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Notes",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 3,
+        "name": "Research_Details",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Research_Details",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  },
+  {
+    "schema": null,
+    "table": "SceneLocation",
+    "constraints": [
+      {
+        "column_name": "Location_ID",
+        "constraint_type": "PRIMARY KEY"
+      }
+    ],
+    "columns": [
+      {
+        "cid": 0,
+        "name": "Location_ID",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1,
+        "hidden": 0,
+        "column_name": "Location_ID",
+        "udt_name": "integer",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 1,
+        "name": "Description",
+        "type": "TEXT",
+        "notnull": 1,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Description",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NO"
+      },
+      {
+        "cid": 2,
+        "name": "Historical_Cultural_Significance",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0,
+        "hidden": 0,
+        "column_name": "Historical_Cultural_Significance",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NO"
+      }
+    ]
+  }
+]
